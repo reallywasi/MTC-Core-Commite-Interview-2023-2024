@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background: purple;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: orange;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+li a:hover {
+    color: white;
+}
+
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a:hover {
+    color: white;
+}
+
+button a {
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+main {
+    min-height: calc(100vh - 125px);
+
+}
+
+footer {
+    text-align: center;
+    color: orange;
+    background-color: purple;
+    padding: 1px;
+}
