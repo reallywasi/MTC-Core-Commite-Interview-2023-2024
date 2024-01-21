@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    position: absolute;
+    background-color: #bbfa27;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 100% 0;
+    left: 0;
+    top: 0;
+}
+
+.menu a {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.exit-menu {
+    position: absolute;
+    background-color: #bbfa27;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 100% 0;
+    left: 0;
+    top: 0;
+}
+
+.exit-menu a {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content {
+    z-index: -1;
+    background-color: #bbfa27;
+    height: 100px;
+    /* Adjusted height to make it a bit bigger */
+    width: 100px;
+    /* Adjusted width to make it a bit bigger */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: left 1s ease, top 1s ease;
+}
+
+.content:hover {
+    border: 2px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    i {
+        font-size: 15px;
+    }
+    .menu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .exit-menu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .content {
+        height: 40px;
+        width: 40px;
+        font-size: 10px;
+    }
+
+    .menu a {
+        height: 20px;
+        width: 20px;
+        font-size: 0px;
+    }
+
+    .exit-menu a {
+        height: 20px;
+        width: 20px;
+        font-size: 12px;
+    }
+}
