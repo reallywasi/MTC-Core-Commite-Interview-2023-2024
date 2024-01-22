@@ -1,0 +1,98 @@
+body {
+  cursor: url('https://icons.iconarchive.com/icons/designcontest/vintage/32/Pen-icon.png'), auto;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding-top: 50px;
+  color: white;
+  font-family: "Abril Fatface", serif;
+}
+
+.card-container {
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+}
+
+.card-wrapper {
+  width: 270px;
+  height: 200px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 15px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card-wrapper:hover {
+  box-shadow: 0px 3px 50px #a5a5a5;
+  scale: 1.1;
+  transition: ease-out 0.5s;
+}
+
+.card-top {
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder {
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 80px;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.card-desc {
+  font-family: "DM Serif Display", serif;
+  overflow: hidden;
+}
+
+.task-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f7f8;
+  padding: 40px 100px;
+  justify-content: space-around;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
